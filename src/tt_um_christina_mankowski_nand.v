@@ -4,7 +4,7 @@
  */
 
 `default_nettype none
-module tt_10_ef6404_nand (
+module tt_um_christina_mankowski_nand(
 input wire [7:0] ui_in, // Dedicated inputs
 output wire [7:0] uo_out, // Dedicated outputs
 input wire [7:0] uio_in, // IOs: Input path
