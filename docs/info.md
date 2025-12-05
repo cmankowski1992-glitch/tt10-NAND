@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The NAND gate works by first performing the AND logic and then performing the NOT logic. This code works by taking 2 of the 8 input pins, creating a wire to perform the AND function and then creating another wire to perform the NOT function. This output is pushed to the output pin.
 
 ## How to test
 
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+NAND Truth Table
+Inputs | Output
+A B | Y
+0 0  1
+0 1  1
+1 0  1
+1 1  0
